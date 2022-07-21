@@ -85,29 +85,39 @@ body{
     text-align: center;
     border-radius: 5px;
 }
+.link a>input{
+    margin: 10px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+}
 #color-red{
     background-color: red;
 }
 .blog-video{
+    width:100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding:0;
     margin: 0;
 }
 .blog-video img{
-    width:100%;
+    width:50%;
 }
-.blog-video-style{
+.group{
     border:1px solid darkgray;
-    margin: 10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    padding: 10px;
     border-radius: 10px;
 }
-.blog-video-style input{
-    margin-left:5px;
-    margin-top: 5px;
+.group h4,h5{
+    text-align: center;
 }
-.blog-video-style p, pre{
-    padding:5px;
+.blog-video-style{
+    
+    display: flex;
+    justify-content:space-between;
 }
 .viewall-button{
     display: none;
