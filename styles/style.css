@@ -1,12 +1,12 @@
-/* Header Start */
-.container{
+/* ----------------------------------Header Start ---------------------------------*/
+.container1{
     display: flex;
     justify-content: center;
 }
 .header-style-left{
     width:50%;
     margin-right: 2px;
-    padding:10px;
+    padding:40px;
 }
 .header-style-left h1{
     font-size: 10vh;
@@ -38,4 +38,65 @@
     top: 50px;
     background-color: #161616;
     border-radius: 10px;
+}
+
+/*------------------------------------------- Header End----------------------------------- */
+
+
+/* main start */
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.blog-section{
+    display:flex;
+    justify-content: center;
+    width: 85%;
+    height:85%;
+}
+.blog{
+    width:20%;
+    height:80%;
+    background-color: #161616;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.link{
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height:100%;  
+}
+.link input{
+    margin: 10px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+}
+#color-red{
+    background-color: red;
+}
+.blog-video{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:0;
+    margin: 0;
+}
+.blog-video img{
+    width:100%;
+}
+.blog-video-style{
+    border:1px solid darkgray;
+    margin: 10px;
+    border-radius: 10px;
+}
+.blog-video-style input{
+    margin-left:5px;
+    margin-top: 5px;
+}
+.blog-video-style h3, pre{
+    padding:5px;
 }
